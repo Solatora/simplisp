@@ -1,0 +1,12 @@
+[package]
+name = "simplisp"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "simplisp"
+path = "src/main.rs"
+
+[dependencies]
+color-eyre = {version="0.6.3"}
+eyre = "0.6.12"
